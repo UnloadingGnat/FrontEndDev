@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.left-links {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #F9FAF8;
+}
+
+
+.hero-img {
+    max-width: 500px;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.signup-button {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    width: 120px;
+    margin-top: 20px;
+}
+
+button.signup-button:hover {
+    box-shadow: 0 0 15px #3882F6;
+}
+
+.info {
+    padding: 30px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+}
+
+.box:hover {
+    background-color: #3882F6;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-text {
+    margin-top: 20px;
+    color: grey;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-text:hover {
+    text-shadow: 0 0 20px #1F2937;
+
+}
+
+.quote-speaker {
+    margin-left: 400px;
+}
+
+.call {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 4px;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info {
+    color: #E5E7EB;
+    margin-left: 80px;
+}
+
+.banner-header {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner-text {
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+button.banner-button {
+    margin-right: 80px;
+    background: #3882F6;
+    border: 3px solid white;
+    color: white;
+    width: 120px;
+}
+
+button.banner-button:hover {
+    background-color: white;
+    color: #1F2937;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+}
+
+
+
+
+.ui-glass {
+    padding: 100px;
+    background-color: #0a0e16;
+
+    background-image: url('./blur.jpg');
+
+    background-size: cover;
+    
+    
+    /* background: linear-gradient(-45deg, #3882F6, #000000);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite; */
+   
+    /* background-image: radial-gradient(at 47% 33%, rgb(8, 76, 186) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%); */
+
+    
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card-glass {
+    
+    width: 250px;
+    height: 280px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.35);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    justify-content: center;
+}
+
+.card-glass:hover {
+    background-color: rgba(162, 168, 179, 0.35);
+}
+
+.glass-title {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+
+
+
+/* --------------------------------------------- */
+
+/* .bg-glass {
+    padding: 300px;
+    background-image: url('grad.png') !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0 black inset;
+
+   
+
+} */
+
+/* .bg-glass {
+    height: 880px;
+    background-color: #111927;
+    background-image:
+        radial-gradient(at 47% 33%, rgb(8, 76, 186) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.95);
+} */
